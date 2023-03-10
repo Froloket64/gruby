@@ -1,0 +1,42 @@
+title-text: "Select an OS..."
+title-font: "scientifica Regular 24"
+title-color: "#928374"
+
+message-font: "scientifica Regular 22"
+message-color: "#458588"
+#message-bg-color
+
+#desktop-image
+desktop-color: "#282828"
+
+#terminal-box
+terminal-font: "scientifica Regular 22"
+
++ boot_menu {
+  left = 15%
+  top = 37%
+  width = 70%
+  height = 42%
+
+  item_font = "scientifica Regular 22"
+  selected_item_font = "scientifica Bold 22"
+  item_color = "#ebdbb2"
+  selected_item_color = "#98971a"
+  item_height = 32
+  item_padding = 0
+  item_spacing = 10
+
+  #menu_pixmap_style = "menu_bkg_*.png"
+
+  selected_item_pixmap_style = "selected_*.png"
+
+  icon_width = 32
+  icon_height = 32
+  icon_item_space = 48
+
+  #scrollbar = true
+  #scrollbar_width = 16
+  #scrollbar_thumb = "sb_th_*.png"
+  #scrollbar_frame = "sb_fr_*.png"
+}
+
